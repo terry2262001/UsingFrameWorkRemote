@@ -1,0 +1,6 @@
+framework module ValidEmailFrameWork {
+  umbrella header "ValidEmailFrameWork-umbrella.h"
+
+  export *
+  module * { export * }
+}

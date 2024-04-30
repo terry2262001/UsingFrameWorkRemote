@@ -1,0 +1,21 @@
+{
+  "name": "ValidEmailFrameWork",
+  "version": "1.0.0",
+  "summary": "A short description",
+  "description": "will update, then i think",
+  "homepage": "https://github.com/terry2262001/ValidEmailFrameWork",
+  "license": "MIT",
+  "authors": {
+    "terry2262001": "terynguyen2262001@gmail.com"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "source": {
+    "git": "https://github.com/terry2262001/ValidEmailFrameWork.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "ValidEmailFrameWork/**/*.{swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

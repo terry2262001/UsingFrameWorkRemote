@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9CF92107DCB06D1A888EBF705B26B8 /* ValidEmailFrameWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548B6775014E3CDBBA5D9260E6A8F20 /* ValidEmailFrameWork-dummy.m */; };
+		355189958D970FDB144AE86AFD4D95E6 /* Pods-UsingFrameWorkRemote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3211E2ED5A045A264026A666D34331 /* Pods-UsingFrameWorkRemote-dummy.m */; };
+		72EFDF79F9784A86ECB9813ADC616401 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8908F5049128BB7C687D061647AD7 /* Validator.swift */; };
+		7306D2F2815D6EB182EED7B8371AD761 /* ValidEmailFrameWork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB35CB54F85BA5C4E18D60F7328F142 /* ValidEmailFrameWork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9214527E65E98FC959C4EF68E2C37116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C6745054D9CC41EECA5147263A59A650 /* Pods-UsingFrameWorkRemote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4826FAD6BF250980CAE2BBFEB180DA3 /* Pods-UsingFrameWorkRemote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0CB49F8097D686E5F0DEA7FAFF9177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		638B0B037AF69C710BEF4DA90EC8DE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC2CC2EE803C95C112891B5ED79D95F;
+			remoteInfo = ValidEmailFrameWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007F5E51FD0B5FAD965FF1E3CD3AAE21 /* ValidEmailFrameWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ValidEmailFrameWork.modulemap; sourceTree = "<group>"; };
+		0E4A223C6C188E16CE4303E449E2F09C /* ValidEmailFrameWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidEmailFrameWork-prefix.pch"; sourceTree = "<group>"; };
+		19ACFFC08C615668025411B71B521C14 /* ValidEmailFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidEmailFrameWork.debug.xcconfig; sourceTree = "<group>"; };
+		2B3211E2ED5A045A264026A666D34331 /* Pods-UsingFrameWorkRemote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UsingFrameWorkRemote-dummy.m"; sourceTree = "<group>"; };
+		36AD15A0E5E80D71E75FC766DD941AF5 /* Pods-UsingFrameWorkRemote-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UsingFrameWorkRemote-frameworks.sh"; sourceTree = "<group>"; };
+		582168ECF345060D7A72841D612BF41D /* ValidEmailFrameWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ValidEmailFrameWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		707AB469FA0B8FA6DEEFAA64E2233AE2 /* Pods-UsingFrameWorkRemote-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UsingFrameWorkRemote-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7548B6775014E3CDBBA5D9260E6A8F20 /* ValidEmailFrameWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValidEmailFrameWork-dummy.m"; sourceTree = "<group>"; };
+		8BE003A5A9137A9A3CB02101E091F0D4 /* Pods-UsingFrameWorkRemote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsingFrameWorkRemote.debug.xcconfig"; sourceTree = "<group>"; };
+		91040AA2E05546A650BF5B46E6752E06 /* Pods-UsingFrameWorkRemote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsingFrameWorkRemote.release.xcconfig"; sourceTree = "<group>"; };
+		9C44680836AE921F0C542712F22B100F /* Pods-UsingFrameWorkRemote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UsingFrameWorkRemote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4826FAD6BF250980CAE2BBFEB180DA3 /* Pods-UsingFrameWorkRemote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsingFrameWorkRemote-umbrella.h"; sourceTree = "<group>"; };
+		CBB35CB54F85BA5C4E18D60F7328F142 /* ValidEmailFrameWork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidEmailFrameWork-umbrella.h"; sourceTree = "<group>"; };
+		D772F0887C52125CF47CB1679A46A404 /* ValidEmailFrameWork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ValidEmailFrameWork-Info.plist"; sourceTree = "<group>"; };
+		D7781FF07B6D453B51E9462921E09FDA /* Pods-UsingFrameWorkRemote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UsingFrameWorkRemote.modulemap"; sourceTree = "<group>"; };
+		D7A05350A8FA7F69BF3D98D046101E22 /* ValidEmailFrameWork */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ValidEmailFrameWork; path = ValidEmailFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC56AD813AB4E62B004813B4BEB62055 /* Pods-UsingFrameWorkRemote */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UsingFrameWorkRemote"; path = Pods_UsingFrameWorkRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA119BD8784471F7E35A7BA761001204 /* Pods-UsingFrameWorkRemote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UsingFrameWorkRemote-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF38463FF9A618BED6047B5492800A1E /* ValidEmailFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidEmailFrameWork.release.xcconfig; sourceTree = "<group>"; };
+		F7F8908F5049128BB7C687D061647AD7 /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = ValidEmailFrameWork/Validator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6AC3381FFAA4F485BF826CA1F388DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9214527E65E98FC959C4EF68E2C37116 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C6701BF5DB3860220732C28968EE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0CB49F8097D686E5F0DEA7FAFF9177 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EBDEA36BA4FC92491D44E7E1077731 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				007F5E51FD0B5FAD965FF1E3CD3AAE21 /* ValidEmailFrameWork.modulemap */,
+				7548B6775014E3CDBBA5D9260E6A8F20 /* ValidEmailFrameWork-dummy.m */,
+				D772F0887C52125CF47CB1679A46A404 /* ValidEmailFrameWork-Info.plist */,
+				0E4A223C6C188E16CE4303E449E2F09C /* ValidEmailFrameWork-prefix.pch */,
+				CBB35CB54F85BA5C4E18D60F7328F142 /* ValidEmailFrameWork-umbrella.h */,
+				19ACFFC08C615668025411B71B521C14 /* ValidEmailFrameWork.debug.xcconfig */,
+				EF38463FF9A618BED6047B5492800A1E /* ValidEmailFrameWork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../UsingFrameWorkRemote/Pods/Target Support Files/ValidEmailFrameWork";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57A3CCA66CB5F67AA1C5FD78B05737CD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86EE5749A1862A0C1C859AECC5172D79 /* ValidEmailFrameWork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		86EE5749A1862A0C1C859AECC5172D79 /* ValidEmailFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				F7F8908F5049128BB7C687D061647AD7 /* Validator.swift */,
+				E0638E917B8B3400AD72918E592A95B2 /* Pod */,
+				38EBDEA36BA4FC92491D44E7E1077731 /* Support Files */,
+			);
+			name = ValidEmailFrameWork;
+			path = ../../ValidEmailFrameWork/ValidEmailFrameWork;
+			sourceTree = "<group>";
+		};
+		934F64CC6C7C377008CF4F2269F0036B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC56AD813AB4E62B004813B4BEB62055 /* Pods-UsingFrameWorkRemote */,
+				D7A05350A8FA7F69BF3D98D046101E22 /* ValidEmailFrameWork */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1CBAE21A23DDFCCC2DB3AAFC60EA80 /* Pods-UsingFrameWorkRemote */ = {
+			isa = PBXGroup;
+			children = (
+				D7781FF07B6D453B51E9462921E09FDA /* Pods-UsingFrameWorkRemote.modulemap */,
+				9C44680836AE921F0C542712F22B100F /* Pods-UsingFrameWorkRemote-acknowledgements.markdown */,
+				EA119BD8784471F7E35A7BA761001204 /* Pods-UsingFrameWorkRemote-acknowledgements.plist */,
+				2B3211E2ED5A045A264026A666D34331 /* Pods-UsingFrameWorkRemote-dummy.m */,
+				36AD15A0E5E80D71E75FC766DD941AF5 /* Pods-UsingFrameWorkRemote-frameworks.sh */,
+				707AB469FA0B8FA6DEEFAA64E2233AE2 /* Pods-UsingFrameWorkRemote-Info.plist */,
+				C4826FAD6BF250980CAE2BBFEB180DA3 /* Pods-UsingFrameWorkRemote-umbrella.h */,
+				8BE003A5A9137A9A3CB02101E091F0D4 /* Pods-UsingFrameWorkRemote.debug.xcconfig */,
+				91040AA2E05546A650BF5B46E6752E06 /* Pods-UsingFrameWorkRemote.release.xcconfig */,
+			);
+			name = "Pods-UsingFrameWorkRemote";
+			path = "Target Support Files/Pods-UsingFrameWorkRemote";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				57A3CCA66CB5F67AA1C5FD78B05737CD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				934F64CC6C7C377008CF4F2269F0036B /* Products */,
+				EEF02C066327E8A272A87E31CB207A0F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0638E917B8B3400AD72918E592A95B2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				582168ECF345060D7A72841D612BF41D /* ValidEmailFrameWork.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EEF02C066327E8A272A87E31CB207A0F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CBAE21A23DDFCCC2DB3AAFC60EA80 /* Pods-UsingFrameWorkRemote */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E8C03F1A264C24073A2FCB63FF39473 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7306D2F2815D6EB182EED7B8371AD761 /* ValidEmailFrameWork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A095727DE3A4E7CFD5DEC30410E2ED88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6745054D9CC41EECA5147263A59A650 /* Pods-UsingFrameWorkRemote-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5FC2CC2EE803C95C112891B5ED79D95F /* ValidEmailFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989C16F8967078E948E87105B23E0FC9 /* Build configuration list for PBXNativeTarget "ValidEmailFrameWork" */;
+			buildPhases = (
+				7E8C03F1A264C24073A2FCB63FF39473 /* Headers */,
+				E2606D7B3BDCED8B5B94CC1E755DBABA /* Sources */,
+				F6AC3381FFAA4F485BF826CA1F388DFE /* Frameworks */,
+				CFC98EB04B5F0D7E903FE430850E7918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValidEmailFrameWork;
+			productName = ValidEmailFrameWork;
+			productReference = D7A05350A8FA7F69BF3D98D046101E22 /* ValidEmailFrameWork */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A930833BDE03051351310BBE376C375 /* Pods-UsingFrameWorkRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D1CF00EAEE1F73A440A1895A65DEF1 /* Build configuration list for PBXNativeTarget "Pods-UsingFrameWorkRemote" */;
+			buildPhases = (
+				A095727DE3A4E7CFD5DEC30410E2ED88 /* Headers */,
+				A1D63ADD9D7FFB67F25CFF65781F9237 /* Sources */,
+				F9C6701BF5DB3860220732C28968EE35 /* Frameworks */,
+				02E6B4C1B3E20C0D16C4BD0F97AF9FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB880771741296D1E25908ED1CABB5D /* PBXTargetDependency */,
+			);
+			name = "Pods-UsingFrameWorkRemote";
+			productName = Pods_UsingFrameWorkRemote;
+			productReference = DC56AD813AB4E62B004813B4BEB62055 /* Pods-UsingFrameWorkRemote */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 934F64CC6C7C377008CF4F2269F0036B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A930833BDE03051351310BBE376C375 /* Pods-UsingFrameWorkRemote */,
+				5FC2CC2EE803C95C112891B5ED79D95F /* ValidEmailFrameWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E6B4C1B3E20C0D16C4BD0F97AF9FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC98EB04B5F0D7E903FE430850E7918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1D63ADD9D7FFB67F25CFF65781F9237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355189958D970FDB144AE86AFD4D95E6 /* Pods-UsingFrameWorkRemote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2606D7B3BDCED8B5B94CC1E755DBABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EFDF79F9784A86ECB9813ADC616401 /* Validator.swift in Sources */,
+				1B9CF92107DCB06D1A888EBF705B26B8 /* ValidEmailFrameWork-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB880771741296D1E25908ED1CABB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ValidEmailFrameWork;
+			target = 5FC2CC2EE803C95C112891B5ED79D95F /* ValidEmailFrameWork */;
+			targetProxy = 638B0B037AF69C710BEF4DA90EC8DE64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4240B37DEF162AE9834A32A725DA6D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF38463FF9A618BED6047B5492800A1E /* ValidEmailFrameWork.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValidEmailFrameWork/ValidEmailFrameWork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValidEmailFrameWork/ValidEmailFrameWork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValidEmailFrameWork/ValidEmailFrameWork.modulemap";
+				PRODUCT_MODULE_NAME = ValidEmailFrameWork;
+				PRODUCT_NAME = ValidEmailFrameWork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F649AC17C6B2260BC2E670B07AAC1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19ACFFC08C615668025411B71B521C14 /* ValidEmailFrameWork.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValidEmailFrameWork/ValidEmailFrameWork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValidEmailFrameWork/ValidEmailFrameWork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValidEmailFrameWork/ValidEmailFrameWork.modulemap";
+				PRODUCT_MODULE_NAME = ValidEmailFrameWork;
+				PRODUCT_NAME = ValidEmailFrameWork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AE90A827DF6A964225BE73E0F17DE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE003A5A9137A9A3CB02101E091F0D4 /* Pods-UsingFrameWorkRemote.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsingFrameWorkRemote/Pods-UsingFrameWorkRemote-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UsingFrameWorkRemote/Pods-UsingFrameWorkRemote.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9B0C7B3047BB70C19A647F82D4E4983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91040AA2E05546A650BF5B46E6752E06 /* Pods-UsingFrameWorkRemote.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsingFrameWorkRemote/Pods-UsingFrameWorkRemote-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UsingFrameWorkRemote/Pods-UsingFrameWorkRemote.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D1CF00EAEE1F73A440A1895A65DEF1 /* Build configuration list for PBXNativeTarget "Pods-UsingFrameWorkRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE90A827DF6A964225BE73E0F17DE60 /* Debug */,
+				C9B0C7B3047BB70C19A647F82D4E4983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989C16F8967078E948E87105B23E0FC9 /* Build configuration list for PBXNativeTarget "ValidEmailFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F649AC17C6B2260BC2E670B07AAC1E9 /* Debug */,
+				4240B37DEF162AE9834A32A725DA6D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ValidEmailFrameWork (1.0.0)
+
+DEPENDENCIES:
+  - ValidEmailFrameWork (from `../ValidEmailFrameWork/ValidEmailFrameWork`)
+
+EXTERNAL SOURCES:
+  ValidEmailFrameWork:
+    :path: "../ValidEmailFrameWork/ValidEmailFrameWork"
+
+SPEC CHECKSUMS:
+  ValidEmailFrameWork: e29a219c4dbda926c33dc1523f81e6e034601823
+
+PODFILE CHECKSUM: e242f15b35d1744f6053ae8bbe50513e59e8f36d
+
+COCOAPODS: 1.14.3
